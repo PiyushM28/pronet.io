@@ -987,7 +987,8 @@ h1 {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 451px) {
+
   html {
     font-size: 50%;
   }
@@ -1081,6 +1082,60 @@ h1 {
 
   .card p {
     font-size: 15px;
+    color: #777;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 530px){
+
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+  }
+
+  .profile img {
+    width: 75px;
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .review .profile h3 {
+    font-size: 25px;
+    color: #79cccb;
+    margin-bottom: 3px;
+  }
+
+  .card p {
+    font-size: 15px;
+    color: #777;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 400px){
+
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+  }
+
+  .profile img {
+    width: 65px;
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .review .profile h3 {
+    font-size: 23px;
+    color: #79cccb;
+    margin-bottom: 3px;
+  }
+
+  .card p {
+    font-size: 13px;
     color: #777;
   }
 }
